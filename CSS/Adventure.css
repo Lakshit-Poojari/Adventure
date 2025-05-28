@@ -87,10 +87,13 @@
 .web{
     margin-top: 0 !important;
 }
+
+
 .progress {
-    margin: 25px 0 !important;
+    margin: 25px 0 10px 0 !important;
     padding: 0 !important;
 	width: 100%;
+
 }
 
 .progress-bar{
@@ -103,6 +106,8 @@
 	height: 25px;
 	padding: 0px;
 	margin: 5px;
+	margin-top: 11px !important;
+    margin-bottom: 24px !important;
 }
 #pb1{
 	width: 5%;
