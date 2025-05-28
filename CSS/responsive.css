@@ -1,0 +1,302 @@
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width:429.98px ){
+        .carousel-caption {
+            bottom: 1.25rem !important;
+        }
+        .carousel-caption h1 {
+            letter-spacing: 3px;
+            font-size: 19px;
+        }
+        .carousel-caption P {
+            font-size: 7PX;
+            word-spacing: 0px;
+            letter-spacing: 3px;
+        }
+        .carousel-caption button {
+            font-size: 10px;
+            padding: 3px 6px;
+            margin-top: 0px;
+        }
+        .carousel-indicators {
+            display: none;
+        }
+
+        .card button {
+            margin: 0px 130px;
+            margin-top: 20px;
+        }
+        .row>* {
+            margin-bottom: 15px;
+        }
+        .awesome_content {
+             display: flex !important;
+            flex-direction: column !important;
+           
+        }
+        .awesome_icon a{
+            display: flex !important;
+            justify-content: center !important;
+            margin: 5px 0 !important;
+        }
+                        .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 81px !important;
+}
+
+.filter-item li.active{
+width: 100% !important;
+
+}
+
+.filter-item li{
+    width: 100% !important;
+}
+.filter-menu li {
+
+    padding: 9px 5px;
+    font-size: 15px;
+}
+
+}
+
+@media (min-width: 430px) and (max-width:575.98px ){
+        .card button {
+            margin: 0px 175px;
+            margin-top: 20px;
+        }
+        .row>* {
+            margin-bottom: 15px;
+        }
+        .text p{
+           padding: 0px 25px;
+        }
+        .team img{
+            width: 100% !important;
+	        height: 350px !important;
+            margin-bottom: 5px !important;
+        }
+
+        .overlay{
+            width: 100% !important;
+        }
+
+        .team:hover .overlay{
+	margin-bottom: 5px  !important;
+}
+
+        .awesome_content {
+             display: flex !important;
+            flex-direction: column !important;
+           
+        }
+        .awesome_icon a{
+            display: flex !important;
+            justify-content: center !important;
+            margin: 5px 0 !important;
+        }
+                        .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 170px !important;
+}
+}
+
+
+@media (min-width: 576px) and (max-width:767.98px ) { 
+    .carousel-caption {
+            bottom: 0.25rem !important;
+        }
+
+         .card button {
+            margin: 0px 200px;
+            margin-top: 20px;
+        }
+        .row>* {
+            margin-bottom: 15px;
+        }
+        .text p{
+           padding: 0px 50px;
+        }
+
+        .team img{
+            width: 200px !important;
+	        height: 250px !important;
+            margin-bottom: 1px !important;
+        }
+
+        .overlay{
+            width: 81.5% !important;
+        }
+
+        .team:hover .overlay{
+	margin-bottom: 1px  !important;
+}
+                .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 250px !important;
+}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991.98px ) {
+
+      .carousel-caption {
+            bottom: 4.25rem !important;
+        }
+        .carousel-caption button {
+            margin-top: 17px;
+        }
+        .carousel-caption P {
+            word-spacing: 0px;
+            letter-spacing: 7px;
+        }
+        .card button {
+            margin: 0px 60px;
+            margin-top: 20px;
+        }
+        .row>* {
+            margin-bottom: 15px;
+        }
+        .card h5{
+	        margin-top: 60px;
+	        text-transform: uppercase;
+            font-size: 15px;
+        }
+
+        .card p{
+	        margin-top: 20px;
+            font-size: 13px;
+            padding: 0 17px;
+            text-align: justify;
+        }
+        .text p{
+           padding: 0px 75px !important;
+        }
+                .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 85px !important;
+}
+#gallery img {
+
+    height: 185px !important;
+}
+.single-card p{
+        letter-spacing: 4px;
+        font-size: 14px;
+}
+        
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199.98px )  { 
+
+        .carousel-caption {
+            bottom: 7.25rem !important;
+        }
+        .carousel-caption button {
+            margin-top: 33px;
+        }
+        .card button {
+            margin: 0px 100px;
+            margin-top: 20px;
+        }
+        .card h5{
+            margin-top: 35px;
+        }
+        .card{
+            height: 490px;
+        }
+        .text p{
+           padding: 0px 150px !important;
+        }
+
+        .team img{
+            width: 250px !important;
+	        height: 250px !important;
+            margin-bottom: 5px !important;
+        }
+
+        .overlay{
+            width: 55% !important;
+        }
+
+        .team:hover .overlay{
+	margin-bottom: 5px  !important;
+}
+                .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 150px !important;
+}
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px )  { 
+        .card button {
+            margin: 20px 132px 0px 132px;
+        }
+
+        .text p{
+           padding: 0px 220px !important;
+        }
+
+        .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 240px !important;
+}
+.email{
+	position: relative;
+}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width:1499.98px ) { 
+    .text p{
+           padding: 0px 400px !important;
+        }
+        .email{
+	position: relative;
+}
+       .email i{
+	/* background-color: #ec4848 !important;
+	padding: 7px !important;
+	margin: 0 !important; */
+	position: absolute;
+	right: 252px !important;
+}
+ }
